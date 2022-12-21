@@ -10,7 +10,6 @@ const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs.sendForm('service_vo742s4', 'template_96aa32s', form.current, '1aA-zE1mt_cvdSsAm')
       .then((result) => {
           console.log(result.text);
@@ -30,7 +29,7 @@ const form = useRef();
             <div className="block p-7 bg-white max-w-sm " style={{boxShadow: "0px 1px 100px 1px rgba(0, 0, 0, 0.1)" , borderRadius: "20px"}}>
     
                 <form ref={form} onSubmit={sendEmail}>
-                    <h1 className="text-4xl text-center font-bold text-blue-800 mb-10">CONTACT US</h1>
+                    <h1 className="text-4xl text-center font-bold text-blue-800 mb-10 animate__animated animate__pulse">CONTACT US</h1>
                     <div className="form-group mb-6">
                         {/* <label for="email" className="form-label inline-block mb-2 text-black">Email
                             address</label>  */}
@@ -44,7 +43,7 @@ const form = useRef();
                             </div>
                             <input type="email"
                                 className="form-control block w-full pl-10 px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-lg transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-800 focus:outline-none"
-                                id="email" aria-describedby="emailHelp" placeholder="Enter your email" name="email"/>
+                                id="email" aria-describedby="emailHelp" placeholder="Enter your email" name="email" required/>
                         </div>
                     </div>
     
@@ -61,7 +60,7 @@ const form = useRef();
                             </div>
                             <input type="text"
                                 className="form-control block w-full pl-10 px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-lg transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-800 focus:outline-none"
-                                id="phone" placeholder="Enter your number" name="phone"/>
+                                id="phone" placeholder="Enter your number" name="phone" required/>
                         </div>
                     </div>
                     <div className="form-group mb-6">
@@ -77,7 +76,7 @@ const form = useRef();
                             </div>
                             <textarea
                                 className="form-control block w-full pl-10 px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-lg transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-800 focus:outline-none"
-                                id="message" rows="4" placeholder="Write your message here" name="message"></textarea>
+                                id="message" rows="4" placeholder="Write your message here" name="message" required></textarea>
                         </div>
                     </div>
                     <div className="text-center">

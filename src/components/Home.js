@@ -1,7 +1,8 @@
-import React from "react"
-import home from "./images/home.jpg"
-import homeback from "./images/homeback.jpg"
+import React from "react";
+import home from "./images/home.jpg";
+import homeback from "./images/homeback.jpg";
 import { Link } from "react-router-dom";
+import 'animate.css';
 
 const Home = () =>{
 
@@ -13,7 +14,7 @@ const Home = () =>{
             style={{backgroundColor: "rgba(255, 255, 255, 0.45)"}}>
             <div className="flex justify-start items-center h-full ml-44 mr-6">
                 <div className="text-end text-blue-800 px-6 lg:px-12">
-                    <h1 className="text-4xl font-bold mt-0 mb-6 ">Welcome to <span className="block text-7xl">IDA TEQ</span>
+                    <h1 className="text-4xl font-bold mt-0 mb-6 ">Welcome to <span className="block text-7xl animate__animated animate__fadeIn">IDA TEQ</span>
                     </h1>
                     <h3 className="text-xl font-normal mb-8">We are a Burundian Social <span className="block">Enterprise, Founded
                             in 2022</span>
@@ -58,7 +59,7 @@ const Home = () =>{
                 girls from local low-income communities accessing anaffordable learning focusing on general computer
                 literacy, coding, data science and internet of thing.</p>
             <div className="grid grid-cols-2 gap-y-4 gap-x-4 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 xl:gap-x-5 lg:px-16">
-                <div className="group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8"
+                <div className="group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInLeft"
                     style={{boxShadow: "1px 1px 100px 1px rgba(0, 0, 0, 0.15)" , borderRadius: "50px 0px 0px 0px"}}>
                     <div className="items-center justify-center text-left px-6 py-6 sm:px-12 sm:py-10">
                         <div className="text-2xl font-bold uppercase mb-3 sm:mb-7 sm:text-3xl text-blue-800">Girls in Code
@@ -70,7 +71,7 @@ const Home = () =>{
                                 More</Link></div>
                     </div>
                 </div>
-                <div className="group aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-white xl:aspect-w-7 xl:aspect-h-8"
+                <div className="group aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-white xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInRight"
                     style={{boxShadow: "1px 1px 100px 1px rgba(0, 0, 0, 0.15)" , borderRadius: "0px 50px 0px 0px"}}>
                     <div className="items-center justify-center text-left px-6 py-6 sm:px-12 sm:py-10">
                         <div className="text-2xl font-bold uppercase mb-3 sm:mb-7 sm:text-3xl text-blue-800">aipe</div>
@@ -81,7 +82,7 @@ const Home = () =>{
                                 More</Link></div>
                     </div>
                 </div>
-                <div className="group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8"
+                <div className="group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInUp"
                     style={{boxShadow: "1px 1px 100px 1px rgba(0, 0, 0, 0.15)" , borderRadius: "0px 0px 0px 50px"}}>
                     <div className="items-center justify-center text-left px-6 py-6 sm:px-12 sm:py-10">
                         
@@ -94,7 +95,7 @@ const Home = () =>{
                                 More</Link></div>
                     </div>
                 </div>
-                <div className="group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8"
+                <div className="group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInUp"
                     style={{boxShadow: "1px 1px 100px 1px rgba(0, 0, 0, 0.15)" , borderRadius: "0px 0px 50px 0px"}}>
                     <div className="items-center justify-center text-left px-6 py-6 sm:px-12 sm:py-10">
                         <div className="text-2xl font-bold uppercase mb-3 sm:mb-7 sm:text-3xl text-blue-800">scpiot</div>

@@ -5,7 +5,7 @@ import home from './images/home.jpg';
 const Girls = () => {
 
     return(
-        <div className="relative bg-contain" style={{backgroundImage: `url(${back})`}}>
+        <div className="relative bg-cover" style={{backgroundImage: `url(${back})`}}>
 
         <div className="text-center lg:text-left">
             <div className="container p-7 ">

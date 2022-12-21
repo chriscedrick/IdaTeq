@@ -16,7 +16,7 @@ const Services = () => {
                     </div>
                     <div className="mb-4 lg:mb-0 text-center">
                         <button type="button"
-                            className="inline-block px-3 py-2.5 bg-blue-800 text-white font-bold text-lg leading-tight uppercase rounded hover:bg-blue-700 hover:bg-opacity-100 focus:outline-none focus:ring-0"
+                            className="inline-block px-3 py-2.5 bg-blue-800 text-white font-bold text-lg leading-tight uppercase rounded hover:bg-blue-700 hover:bg-opacity-100 focus:outline-none focus:ring-0 animate__animated animate__pulse animate__delay-1s"
                             data-mdb-ripple="true" data-mdb-ripple-color="light" style={{borderRadius: "10px"}}>
                             HIRE US TODAY
                         </button>
@@ -30,7 +30,7 @@ const Services = () => {
             <div className="mx-auto max-w-2xl py-2 px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-20 ">
                 <div
                     className="grid grid-cols-2 gap-y-4  gap-x-4 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 xl:gap-y-10 xl:gap-x-10 lg:px-10">
-                    <div className="group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8"
+                    <div className="group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInLeft"
                         style={{boxShadow: "1px 1px 100px 1px rgba(0, 0, 0, 0.15)", borderRadius: "15px"}}>
                         <div className="items-center justify-center text-center px-6 py-6 lg:px-12 lg:py-10 ">
                             <div className="text-2xl font-bold uppercase mb-3 lg:mb-7 lg:text-3xl text-blue-800 ">SYSTEM ANALYSIS
@@ -43,7 +43,7 @@ const Services = () => {
                                 software</div>
                         </div>
                     </div>
-                    <div className="group aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-white xl:aspect-w-7 xl:aspect-h-8"
+                    <div className="group aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-white xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInRight"
                         style={{boxShadow: "1px 1px 100px 1px rgba(0, 0, 0, 0.15)",borderRadius: "15px"}}>
                         <div className="items-center justify-center text-center px-6 py-6 lg:px-12 lg:py-10">
                             <div className="text-2xl font-bold uppercase mb-3 lg:text-3xl text-blue-800">DATABASE MANAGEMENT
@@ -55,7 +55,7 @@ const Services = () => {
                                 expertise in SQL and No SQL database</div>
                         </div>
                     </div>
-                    <div className="group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8"
+                    <div className="group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInUp"
                         style={{boxShadow: "1px 1px 100px 1px rgba(0, 0, 0, 0.15)", borderRadius: "15px"}}>
                         <div className="items-center justify-center text-center px-6 py-6 lg:px-12 lg:py-10">
                             <div className="text-2xl font-bold uppercase mb-3 lg:text-3xl text-blue-800">PROGRAMMING
@@ -66,7 +66,7 @@ const Services = () => {
                                 specializes in software</div>
                         </div>
                     </div>
-                    <div className="group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8"
+                    <div className="group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInUp"
                         style={{boxShadow: "1px 1px 100px 1px rgba(0, 0, 0, 0.15)", borderRadius: "15px"}}>
                         <div className="items-center justify-center text-center px-6 py-6 lg:px-12 lg:py-10">
                             <div className="text-2xl font-bold uppercase mb-3 lg:text-3xl text-blue-800">PROGRAMMING</div>

@@ -1,6 +1,7 @@
 import React from "react";
 import back from './images/back.jpg';
 import home from './images/home.jpg';
+import home2 from './images/IdaBrand.jpg';
 
 const Juniors = () => {
 
@@ -182,7 +183,7 @@ const Juniors = () => {
                                     <div className="md:flex md:flex-row">
                                         <div
                                             className="md:w-96 w-36 flex justify-center items-center mb-6 lg:mb-0 mx-auto md:mx-0">
-                                            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg"
+                                            <img src={home2}
                                                 className="rounded-full shadow-md" alt="woman avatar" />
                                         </div>
                                         <div className="md:ml-6">
@@ -202,7 +203,7 @@ const Juniors = () => {
                                     <div className="md:flex md:flex-row">
                                         <div
                                             className="md:w-96 w-36 flex justify-center items-center mb-6 lg:mb-0 mx-auto md:mx-0 overflow-visible ">
-                                            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg"
+                                            <img src={home2}
                                                 className="rounded-full shadow-md" alt="woman avatar" />
                                         </div>
                                         <div className="md:ml-6">

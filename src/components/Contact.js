@@ -1,7 +1,27 @@
-import React from "react"
+import React, { useRef } from 'react';
 import contactback from "./images/contactback.jpg"
+import emailjs from 'emailjs-com';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
+
+const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_vo742s4', 'template_96aa32s', form.current, '1aA-zE1mt_cvdSsAm')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      toast.success('Sent Successfully!', {
+        position: toast.POSITION.TOP_RIGHT
+    });
+  };
+
 
     return(
         <div className=" bg-cover" style={{ backgroundImage: `url(${contactback})`}}>
@@ -9,7 +29,7 @@ const Contact = () => {
         <div className="px-20 py-10 lg:py-28">
             <div className="block p-7 bg-white max-w-sm " style={{boxShadow: "0px 1px 100px 1px rgba(0, 0, 0, 0.1)" , borderRadius: "20px"}}>
     
-                <form>
+                <form ref={form} onSubmit={sendEmail}>
                     <h1 className="text-4xl text-center font-bold text-blue-800 mb-10">CONTACT US</h1>
                     <div className="form-group mb-6">
                         {/* <label for="email" className="form-label inline-block mb-2 text-black">Email
@@ -24,7 +44,7 @@ const Contact = () => {
                             </div>
                             <input type="email"
                                 className="form-control block w-full pl-10 px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-lg transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-800 focus:outline-none"
-                                id="email" aria-describedby="emailHelp" placeholder="Enter your email"/>
+                                id="email" aria-describedby="emailHelp" placeholder="Enter your email" name="email"/>
                         </div>
                     </div>
     
@@ -41,7 +61,7 @@ const Contact = () => {
                             </div>
                             <input type="text"
                                 className="form-control block w-full pl-10 px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-lg transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-800 focus:outline-none"
-                                id="phone" placeholder="Enter your number"/>
+                                id="phone" placeholder="Enter your number" name="phone"/>
                         </div>
                     </div>
                     <div className="form-group mb-6">
@@ -57,7 +77,7 @@ const Contact = () => {
                             </div>
                             <textarea
                                 className="form-control block w-full pl-10 px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-lg transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-800 focus:outline-none"
-                                id="message" rows="4" placeholder="Write your message here"></textarea>
+                                id="message" rows="4" placeholder="Write your message here" name="message"></textarea>
                         </div>
                     </div>
                     <div className="text-center">
@@ -65,6 +85,7 @@ const Contact = () => {
                             className="px-4 py-2 bg-blue-800 text-white font-bold text-xl leading-tight uppercase shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-100 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg hover:-translate-y-1 hover:scale-110 "
                             style={{borderRadius: "10px 0px",transition: "all 0.3s ease-out"}}>Send</button>
                     </div>
+                    <ToastContainer />
                 </form>
             </div>
         </div>

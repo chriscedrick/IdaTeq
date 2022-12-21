@@ -6,10 +6,11 @@ const Apply = () => {
     return(
         <div className=" bg-cover" style={{backgroundImage: `url(${applyback})`}}>
 
-        <div className="px-10 lg:px-20 lg:pl-[650px] py-20">
-            <div className="block p-10 bg-white" style={{boxShadow: "0px 1px 100px 1px rgba(0, 0, 0, 0.1)" ,borderRadius: "20px"}}>
+        <div className="px-10 lg:px-20 lg:pl-[550px] py-20">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe9Y1D_bcS5X0qvEI5MXgxZLdxhOt9VUxzxWLREdapbD3J6mQ/viewform?embedded=true" width="700" height="1500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            {/* <div className="block p-10 bg-white" style={{boxShadow: "0px 1px 100px 1px rgba(0, 0, 0, 0.1)" ,borderRadius: "20px"}}>
             
-                <form>
+                 <form>
                     <h1 className="text-4xl text-center font-bold text-blue-800 mb-10">APPLICATION FORM</h1>
     
                     <div className="form-group mb-6">
@@ -67,8 +68,7 @@ const Apply = () => {
                     </div>
                     <div className="form-group mb-6">
                         <label for="training" className="form-label inline-block mb-2 text-black">What you like to be trained in</label>
-                        {/*  <textarea  className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-lg transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-800 focus:outline-none" id="training" rows="1"
-                             placeholder="Write what you like to be trained in"></textarea>  */}
+                       
                              <select id="training" className="form-control bg-white bg-clip-padding border border-solid border-gray-300 text-gray-700 text-base font-normal rounded-lg focus:ring-blue-800 focus:border-blue-800 block w-full px-3 p-1.5 focus:outline-none ">
                                 <option selected>Choose what you like to be trained in</option>
                                 <option value="">UI/UX Design</option>
@@ -83,8 +83,8 @@ const Apply = () => {
                     <button type="submit" className="px-4 py-2 bg-blue-800 text-white font-bold text-xl leading-tight uppercase shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg hover:-translate-y-1 hover:scale-110"
                 style={{borderRadius: "10px",transition: "all 0.5s ease-in-out"}}>Submit</button>
                     </div>
-                </form>
-            </div>
+                </form> 
+            </div> */}
         </div>
     
     </div>

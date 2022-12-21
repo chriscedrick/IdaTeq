@@ -21,7 +21,7 @@ const Home = () =>{
 
                     </h3>
                     <Link to="/apply"><button type="button"
-                        className="inline-block px-3 py-2.5 bg-blue-800 text-white font-bold text-lg leading-tight uppercase rounded hover:bg-blue-700 hover:bg-opacity-100 focus:outline-none focus:ring-0 "
+                        className="inline-block px-3 py-2.5 bg-blue-800 text-white font-bold text-lg leading-tight uppercase rounded hover:bg-blue-700 hover:bg-opacity-100 focus:outline-none focus:ring-0 animate__animated animate__bounce"
                         data-mdb-ripple="true" data-mdb-ripple-color="light" style={{borderRadius: "15px 0px"}}>
                         APPLY NOW
                     </button></Link>

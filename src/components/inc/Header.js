@@ -16,10 +16,10 @@ const Header = () => {
         <div>
           <nav className="flex h-9 items-center justify-between" aria-label="Global">
             <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
-              <a href="#" className="-m-1.5 p-1.5">
+              <Link to="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <img src={Idalogo} className="block w-60" alt="..."/>
-                </a>
+                </Link>
             </div>
             <div className="flex lg:hidden">
               <button

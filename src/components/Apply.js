@@ -7,7 +7,7 @@ const Apply = () => {
         <div className=" bg-cover" style={{backgroundImage: `url(${applyback})`}}>
 
         <div className="px-10 lg:px-20 lg:pl-[550px] py-20">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe9Y1D_bcS5X0qvEI5MXgxZLdxhOt9VUxzxWLREdapbD3J6mQ/viewform?embedded=true" width="700" height="1500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe9Y1D_bcS5X0qvEI5MXgxZLdxhOt9VUxzxWLREdapbD3J6mQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" className="w-full h-screen">Loading…</iframe>
             {/* <div className="block p-10 bg-white" style={{boxShadow: "0px 1px 100px 1px rgba(0, 0, 0, 0.1)" ,borderRadius: "20px"}}>
             
                  <form>

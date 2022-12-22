@@ -6,19 +6,19 @@ import home2 from './images/IdaBrand.jpg';
 const Juniors = () => {
 
     return(
-        <div className="bg-cover" style={{backgroundImage: `url(${back})`}}>
+        <div className="md:bg-cover bg-contain" style={{backgroundImage: `url(${back})`}}>
 
-        <div className="text-center lg:text-left">
+<div className="text-center lg:text-left">
             <div className="container p-7 ">
-                <div className="grid grid-cols-2 gap-4 justify-center items-center lg:grid-cols-3 lg:px-40">
-                    <div className="mb-4 md:mb-0 text-end">
-                        <p className="font-bold uppercase text-3xl lg:text-3xl text-blue-800">
-                        JUNIOR PROGRAM
+                <div className="grid grid-cols-1 gap-4 justify-center items-center lg:grid-cols-3 lg:px-40">
+                    <div className="mb-0 md:mb-0 text-end">
+                        <p className="font-bold uppercase text-xl lg:text-3xl text-blue-800">
+                            JUNIOR PROGRAMMERS
                         </p>
                     </div>
-                    <div className="mb-4 md:mb-0 lg:col-span-2 text-small lg:text-xl text-start">
+                    <div className="mb-0 md:mb-0 lg:col-span-2 text-sm lg:text-xl text-start">
                         <p className="lg:pr-28">
-                        Junior Prograammer is a national non-profitworking to close the gender gap intechnology.
+                            Junior Programmers is a national non-profitworking to close the gender gap intechnology.
                         </p>
                     </div>
                 </div>
@@ -27,19 +27,19 @@ const Juniors = () => {
     
         <div className="text-center lg:text-left">
             <div className="container p-7 ">
-                <div className="grid grid-cols-2 gap-4 justify-center items-center lg:grid-cols-2 lg:px-5">
-                    <div className="mb-4 md:mb-0 text-start">
-                        <div className="text-2xl font-bold uppercase mb-3 lg:text-3xl text-blue-800">PROGRAM PURPOSE</div>
-                        <div className="font-sans text-sm lg:pr-20 lg:text-xl">Girls In Code is a national non-profit working to
+                <div className="grid grid-cols-1 gap-4 justify-center items-center lg:grid-cols-2 lg:px-5">
+                    <div className="mb-0 md:mb-0 text-start">
+                        <div className="text-xl font-bold uppercase mb-3 lg:text-3xl text-blue-800">PROGRAM PURPOSE</div>
+                        <div className="font-sans text-sm lg:pr-20 lg:text-xl">Junior Programmers is a national non-profit working to
                             close the gender
                             gap in technology. <br/>
                             Girls In Code Clubs in schools are led by Facilitators, who are 18+ and can be teachers,
                             computer scientists, librarians, parents, college students or volunteers from any background or
                             ﬁeld.</div>
                     </div>
-                    <div className="mb-4 md:mb-0  text-small lg:text-base text-start lg:pl-40 lg:pb-20">
+                    <div className="mb-0 md:mb-0  text-small lg:text-base text-start lg:pl-40 lg:pb-20 items-center">
     
-                        <img src={home} className="object-cover h-52 w-52 lg:h-96 lg:w-96 " style={{borderRadius: "1000px"}} />
+                        <img src={home} className="object-cover h-52 w-52 lg:h-96 lg:w-96 rounded-full" alt=""/>
     
                     </div>
                 </div>
@@ -47,11 +47,11 @@ const Juniors = () => {
         </div>
     
         <div className="relative">
-            <h1 className="text-4xl font-bold tracking-tight text-blue-800 py-2 px-4 lg:px-16">TRAINING PROGRAM</h1>
+            <h1 className="text-2xl md:text-4xl font-bold tracking-tight text-blue-800 py-2 px-4 lg:px-16">TRAINING PROGRAM</h1>
                 <div className="mx-auto max-w-2xl py-2 px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-10 ">
     
                     <div
-                        className="grid grid-cols-2 gap-y-2  gap-x-2 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 xl:gap-y-5 xl:gap-x-5 lg:px-5">
+                        className="grid grid-cols-1 gap-y-2  gap-x-2 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 xl:gap-y-5 xl:gap-x-5 lg:px-5">
                         <div
                             className=" group aspect-w-1 aspect-h-1 w-full overflow-hidden  xl:aspect-w-7 xl:aspect-h-8 bg-blue-800 border border-gray-200 rounded-lg shadow-md ">
     
@@ -171,15 +171,15 @@ const Juniors = () => {
     
     
                 <div className="relative">
-                    <h1 className="text-4xl font-bold tracking-tight text-blue-800 py-2 px-4 sm:px-16 text-center">OUR JUNIORS</h1>
-                        <div className="mx-auto max-w-2xl py-2 px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-10 ">
+                    <h1 className="text-2xl md:text-4xl font-bold tracking-tight text-blue-800 py-1 px-2 sm:px-16 text-center">OUR JUNIORS</h1>
+                        <div className="mx-auto max-w-sm py-1 px-2 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-10 ">
     
                             <div
                                 className="grid grid-cols-1 gap-y-2  gap-x-2 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 xl:gap-y-5 xl:gap-x-5 lg:px-5">
     
     
                                 <div
-                                    className="group aspect-w-1 aspect-h-1 w-full overflow-visible  xl:aspect-w-7 xl:aspect-h-8 block  p-6 rounded-lg shadow-lg bg-white m-4">
+                                    className="group aspect-w-1 aspect-h-1 w-full overflow-visible  xl:aspect-w-7 xl:aspect-h-8 block  p-4 rounded-lg shadow-lg bg-white m-0 md:m-4">
                                     <div className="md:flex md:flex-row">
                                         <div
                                             className="md:w-96 w-36 flex justify-center items-center mb-6 lg:mb-0 mx-auto md:mx-0">
@@ -193,13 +193,13 @@ const Juniors = () => {
                                                 corrupti
                                                 magnam.
                                             </p>
-                                            <p className="font-semibold text-xl mb-2 text-blue-800">Anna Smith</p>
+                                            <p className="font-semibold text-lg md:text-xl mb-2 text-blue-800">Anna Smith</p>
                                         </div>
                                     </div>
                                 </div>
     
                                 <div
-                                    className="group aspect-w-1 aspect-h-1 w-full  xl:aspect-w-7 xl:aspect-h-8 block  p-6 rounded-lg shadow-lg bg-white m-4">
+                                    className="group aspect-w-1 aspect-h-1 w-full  xl:aspect-w-7 xl:aspect-h-8 block  p-4 rounded-lg shadow-lg bg-white m-0 md:m-4">
                                     <div className="md:flex md:flex-row">
                                         <div
                                             className="md:w-96 w-36 flex justify-center items-center mb-6 lg:mb-0 mx-auto md:mx-0 overflow-visible ">
@@ -213,7 +213,7 @@ const Juniors = () => {
                                                 corrupti
                                                 magnam.
                                             </p>
-                                            <p className="font-semibold text-xl mb-2 text-blue-800">Anna Smith</p>
+                                            <p className="font-semibold text-lg md:text-xl mb-2 text-blue-800">Anna Smith</p>
                                         </div>
                                     </div>
                                 </div>
@@ -223,7 +223,7 @@ const Juniors = () => {
     
                 </div>
                 </div>
-                </div>
+        </div>
     
     );
 };

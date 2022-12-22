@@ -1,10 +1,11 @@
 import React from "react";
+import homeback from "./images/homeback.jpg"
 
 
 const Projects = () =>{
 
     return(
-        <div className="bg-white h-100">
+        <div className="md:bg-cover bg-contain" style={{backgroundImage: `url(${homeback})`}}>
             
         </div>
     );

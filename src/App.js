@@ -10,8 +10,6 @@ import Services from './components/Services';
 import Projects from './components/Projects';
 import Girls from './components/Girls';
 import Juniors from './components/Juniors';
-import Example from './custom';
-
 
 function App() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import home from "./images/home.jpg";
 import homeback from "./images/homeback.jpg";
-import { Link } from "react-router-dom";
+import { a } from "react-router-dom";
 import 'animate.css';
 
 const Home = () =>{
@@ -20,11 +20,11 @@ const Home = () =>{
                             in 2022</span>
 
                     </h3>
-                    <Link to="/apply"><button type="button"
+                    <a href="/apply"><button type="button"
                         className="inline-block px-3 py-2.5 bg-blue-800 text-white font-bold text-lg leading-tight uppercase rounded hover:bg-blue-700 hover:bg-opacity-100 focus:outline-none focus:ring-0 animate__animated animate__tada"
                         data-mdb-ripple="true" data-mdb-ripple-color="light" style={{borderRadius: "15px 0px"}}>
                         APPLY NOW
-                    </button></Link>
+                    </button></a>
                 </div>
             </div>
         </div>
@@ -67,8 +67,8 @@ const Home = () =>{
                         <div className="font-sans text-sm">A program initiated to close the gender gap in
                             technology by focusing on girls and women between 18 -24 years old from low income
                             families and refugees camps.</div>
-                        <div className="font-sans text-sm font-medium mt-3 sm:mt-7 text-blue-800 underline sm:text-start text-end"><Link to="/girls">Find
-                                More</Link></div>
+                        <div className="font-sans text-sm font-medium mt-3 sm:mt-7 text-blue-800 underline sm:text-start text-end"><a href="/girls">Find
+                                More</a></div>
                     </div>
                 </div>
                 <div className="group aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-white xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInRight"
@@ -78,8 +78,8 @@ const Home = () =>{
                         <div className="font-sans text-sm">All for inforamtion and programming
                             Educations a program designed to teach youths from low income family and refugee camps
                             aged between 8 to 16 years how to code.</div>
-                        <div className="font-sans text-sm font-medium mt-3 sm:mt-7 text-blue-800 underline sm:text-start text-end"><Link to="">Find
-                                More</Link></div>
+                        <div className="font-sans text-sm font-medium mt-3 sm:mt-7 text-blue-800 underline sm:text-start text-end"><a href="">Find
+                                More</a></div>
                     </div>
                 </div>
                 <div className="group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInUp"
@@ -91,8 +91,8 @@ const Home = () =>{
                         <div className="font-sans text-sm">All for inforamtion and programming Educations a
                             program designed toteach youths from low income familyand refugee camps aged between 8
                             to 16 years how to code.</div>
-                        <div className="font-sans text-sm font-medium mt-3 sm:mt-7 text-blue-800 underline sm:text-start text-end"><Link to="/juniors">Find
-                                More</Link></div>
+                        <div className="font-sans text-sm font-medium mt-3 sm:mt-7 text-blue-800 underline sm:text-start text-end"><a href="/juniors">Find
+                                More</a></div>
                     </div>
                 </div>
                 <div className="group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInUp"
@@ -101,8 +101,8 @@ const Home = () =>{
                         <div className="text-xl font-bold uppercase mb-3 sm:mb-7 sm:text-3xl text-blue-800">scpiot</div>
                         <div className="font-sans text-sm">Sustainable Career in programming and IoT Program was
                             initiated in 2019 to equipe TVET and University graduates with ICT employable skills.</div>
-                        <div className="font-sans text-sm font-medium mt-3 sm:mt-7 text-blue-800 underline sm:text-start text-end"><Link to="">Find
-                                More</Link></div>
+                        <div className="font-sans text-sm font-medium mt-3 sm:mt-7 text-blue-800 underline sm:text-start text-end"><a href="">Find
+                                More</a></div>
                     </div>
                 </div>
             </div>

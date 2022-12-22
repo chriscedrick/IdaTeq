@@ -4,7 +4,7 @@ import React from "react";
 const Projects = () =>{
 
     return(
-        <div>
+        <div className="bg-white h-100">
             
         </div>
     );

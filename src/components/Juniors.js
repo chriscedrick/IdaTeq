@@ -6,7 +6,7 @@ import home2 from './images/IdaBrand.jpg';
 const Juniors = () => {
 
     return(
-        <div className="relative bg-cover" style={{backgroundImage: `url(${back})`}}>
+        <div className="bg-cover" style={{backgroundImage: `url(${back})`}}>
 
         <div className="text-center lg:text-left">
             <div className="container p-7 ">

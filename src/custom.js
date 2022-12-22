@@ -10,7 +10,7 @@ import {
   CodeBracketSquareIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import Idalogo from '../images/Idalogo1.jpg'
+import Idalogo from './components/images/Idalogo1.jpg'
 
 const programs = [
   {
@@ -24,7 +24,7 @@ const programs = [
     href: '/juniors',
     icon: CodeBracketSquareIcon,
   },
-  { name: 'AIPE', href: '#', icon: ShieldCheckIcon },
+  { name: 'Aipe', href: '#', icon: ShieldCheckIcon },
   {
     name: 'SCPIOT',
     href: '#',
@@ -36,7 +36,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-const Header = () => {
+export default function Example() {
   return (
     <Popover className="relative bg-white">
       <div className="mx-auto max-w-7xl px-6 sm:px-10">
@@ -162,10 +162,7 @@ const Header = () => {
               </div>
             </div>
             <div className="space-y-6 py-6 px-5">
-              <div className="grid grid-cols-3 gap-y-4 gap-x-8 text-center">
-              <a href="/" className="text-base font-medium text-blue-800 hover:text-blue-700">
-                  Home
-                </a>
+              <div className="grid grid-cols-2 gap-y-4 gap-x-8">
                 <a href="/services" className="text-base font-medium text-blue-800 hover:text-blue-700">
                   IT Services
                 </a>
@@ -187,7 +184,5 @@ const Header = () => {
         </Popover.Panel>
       </Transition>
     </Popover>
-  );
-};
-
-export default Header;
+  )
+}

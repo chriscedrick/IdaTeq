@@ -161,8 +161,8 @@ const Header = () => {
                 </nav>
               </div>
             </div>
-            <div className="space-y-6 py-6 px-5">
-              <div className="grid grid-cols-3 gap-y-4 gap-x-8 text-center">
+            <div className="space-y-5 py-5 px-5">
+              <div className="grid grid-cols-4 gap-y-0 gap-x-0 text-center">
               <a href="/" className="text-base font-medium text-blue-800 hover:text-blue-700">
                   Home
                 </a>
@@ -172,14 +172,17 @@ const Header = () => {
                 <a href="/projects" className="text-base font-medium text-blue-800 hover:text-blue-700">
                   Projects
                 </a>
+                <a href="/contact" className="text-base font-medium text-blue-800 hover:text-blue-700">
+                  Contact Us
+                </a>
                 
               </div>
               <div>
                 <a
-                  href="/contact"
+                  href="/apply"
                   className="flex w-full items-center justify-center rounded-md border border-transparent bg-blue-800 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-blue-700"
                 >
-                  Hire Us Today
+                  Apply now
                 </a>
               </div>
             </div>

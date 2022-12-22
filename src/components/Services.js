@@ -1,5 +1,37 @@
 import React from "react";
 import homeback from "./images/homeback.jpg"
+import {
+    EyeIcon,
+    CircleStackIcon,
+    CodeBracketSquareIcon,
+  } from '@heroicons/react/24/solid'
+
+const services = [
+    {
+        icon: EyeIcon,
+        name: 'SYSTEM ANALYSIS & DESIGN',
+        description: 'System analyses and design team combines both functional and technical analysts. we beleive to develop a proper system of which functional analysis is equally important as technical analysis. Our system analysis and design team specializes in software',
+        class:"group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInLeft"
+    },
+    {
+        icon: CircleStackIcon,
+        name: 'DATABASE MANAGEMENT',
+        description: 'We have database expertise ranging from ISAM or flat database systems like Microsoft Access,MySQL , postgress , visual FoxPro to robust commercial database engines like Oracle,Mongo DB and Microsoft SQL. For web database connectivity and cross-platform data management we also have specialized experience and expertise in SQL and No SQL database',
+        class:"group aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-white xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInRight"
+    },
+    {
+        icon: CodeBracketSquareIcon,
+        name: 'PROGRAMMING',
+        description: 'System analyses and design team combines both functional and technical analysts. we beleive to develop a proper system of which functional analysis is equally important as technical analysis. Our system analysis and design team specializes in software',
+        class:"group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInUp"
+    },
+    {
+        icon: CodeBracketSquareIcon,
+        name: 'PROGRAMMING',
+        description: 'System analyses and design team combines both functional and technical analysts. we beleive to develop a proper system of which functional analysis is equally important as technical analysis. Our system analysis and design team specializes in software',
+        class:"group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInUp"
+    },
+  ]
 
 const Services = () => {
 
@@ -21,63 +53,23 @@ const Services = () => {
                             HIRE US TODAY
                         </button>
                     </div>
-    
                 </div>
             </div>
         </div>
     
         <div className="relative">
             <div className="mx-auto max-w-2xl py-2 px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-20 ">
-                <div
-                    className="grid grid-cols-1 gap-y-4  gap-x-4 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 xl:gap-y-10 xl:gap-x-10 lg:px-10">
-                    <div className="group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInLeft"
+                <div className="grid grid-cols-1 gap-y-4  gap-x-4 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 xl:gap-y-10 xl:gap-x-10 lg:px-10">
+                   {services.map((service) => (
+                     <div className={service.class}
                         style={{boxShadow: "1px 1px 100px 1px rgba(0, 0, 0, 0.15)", borderRadius: "15px"}}>
                         <div className="items-center justify-center text-center px-6 py-6 lg:px-12 lg:py-10 ">
-                            <div className="text-sm font-bold uppercase mb-3 lg:mb-7 lg:text-3xl text-blue-800 ">SYSTEM ANALYSIS
-                                & DESIGN
-                            </div>
-                            <div className="font-sans text-xs lg:text-xl">System analyses and design team combines both
-                                functional and
-                                technical analysts. we beleive to develop a proper system of which functional analysis is
-                                equally important as technical analysis. Our system analysis and design team specializes in
-                                software</div>
+                        <service.icon className="h-6 w-6 flex-shrink-0 text-blue-800" aria-hidden="true" />
+                            <div className="text-sm font-bold uppercase mb-3 lg:mb-7 lg:text-3xl text-blue-800 ">{service.name}</div>
+                            <div className="font-sans text-xs lg:text-xl">{service.description}</div>
                         </div>
                     </div>
-                    <div className="group aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-white xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInRight"
-                        style={{boxShadow: "1px 1px 100px 1px rgba(0, 0, 0, 0.15)",borderRadius: "15px"}}>
-                        <div className="items-center justify-center text-center px-6 py-6 lg:px-12 lg:py-10">
-                            <div className="text-sm font-bold uppercase mb-3 lg:text-3xl text-blue-800">DATABASE MANAGEMENT
-                            </div>
-                            <div className="font-sans text-xs lg:text-xl">We have database expertise ranging from ISAM or flat
-                                database systems like Microsoft Access,MySQL , postgress , visual FoxPro to robust
-                                commercial database engines like Oracle,Mongo DB and Microsoft SQL. For web database
-                                connectivity and cross-platform data management we also have specialized experience and
-                                expertise in SQL and No SQL database</div>
-                        </div>
-                    </div>
-                    <div className="group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInUp"
-                        style={{boxShadow: "1px 1px 100px 1px rgba(0, 0, 0, 0.15)", borderRadius: "15px"}}>
-                        <div className="items-center justify-center text-center px-6 py-6 lg:px-12 lg:py-10">
-                            <div className="text-sm font-bold uppercase mb-3 lg:text-3xl text-blue-800">PROGRAMMING
-                            </div>
-                            <div className="font-sans text-xs lg:text-xl">System analyses and design team combines both
-                                functional and technical analysts. we beleive to develop a proper system of which functional
-                                analysis is equally important as technical analysis. Our system analysis and design team
-                                specializes in software</div>
-                        </div>
-                    </div>
-                    <div className="group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInUp"
-                        style={{boxShadow: "1px 1px 100px 1px rgba(0, 0, 0, 0.15)", borderRadius: "15px"}}>
-                        <div className="items-center justify-center text-center px-6 py-6 lg:px-12 lg:py-10">
-                            <div className="text-sm font-bold uppercase mb-3 lg:text-3xl text-blue-800">PROGRAMMING</div>
-                            <div className="font-sans text-sm lg:text-xl">System analyses and design team combines both
-                                functional and technical analysts. we beleive to develop a proper system of which functional
-                                analysis is equally important as technical analysis. Our system analysis and design team
-                                specializes in software</div>
-                            <div className="font-sans text-xs font-medium mt-3 lg:mt-7 text-blue-800 underline">
-                            </div>
-                        </div>
-                    </div>
+                    ))}
                 </div>
             </div>
     

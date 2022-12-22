@@ -19,12 +19,14 @@ const programs = [
     icon: ChartBarIcon,
   },
   {
-    
     name: 'Junior Programmers',
     href: '/juniors',
     icon: CodeBracketSquareIcon,
   },
-  { name: 'AIPE', href: '#', icon: ShieldCheckIcon },
+  { 
+    name: 'AIPE', 
+    href: '#', 
+    icon: ShieldCheckIcon },
   {
     name: 'SCPIOT',
     href: '#',

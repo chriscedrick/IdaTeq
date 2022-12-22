@@ -1,24 +1,30 @@
 import React from "react";
 import home from "./images/home.jpg";
 import homeback from "./images/homeback.jpg";
-import { a } from "react-router-dom";
 import 'animate.css';
+import {
+    ChartBarIcon,
+    ShieldCheckIcon,
+    Squares2X2Icon,
+    XMarkIcon,
+    CodeBracketSquareIcon,
+  } from '@heroicons/react/24/outline'
 
 const Home = () =>{
 
     return(
     <div>
-        <div className="relative overflow-hidden bg-no-repeat bg-cover"
+    <div className="relative overflow-hidden bg-no-repeat bg-cover"
         style={{ backgroundPosition: "50%" , backgroundImage: `url(${home})` , height: "500px"}}>
         <div className="absolute top-0 right-0 bottom-0 left-192 overflow-hidden bg-fixed rounded-bl-full"
             style={{backgroundColor: "rgba(255, 255, 255, 0.45)"}}>
             <div className="flex justify-start items-center h-full ml-44 mr-6">
                 <div className="text-end text-blue-800 px-6 lg:px-12">
-                    <h1 className="text-xl md:text-4xl font-bold mt-0 mb-6 ">Welcome to <span className="block text-7xl animate__animated animate__fadeIn">IDA TEQ</span>
+                    <h1 className="text-xl md:text-4xl font-bold mt-0 mb-6 ">Welcome to 
+                        <span className="block text-7xl animate__animated animate__fadeIn">IDA TEQ</span>
                     </h1>
-                    <h3 className="text-base md:text-xl font-normal mb-8">We are a Burundian Social <span className="block">Enterprise, Founded
-                            in 2022</span>
-
+                    <h3 className="text-base md:text-xl font-normal mb-8">We are a Burundian Social 
+                        <span className="block">Enterprise, Founded in 2022</span>
                     </h3>
                     <a href="/apply"><button type="button"
                         className="inline-block px-3 py-2.5 bg-blue-800 text-white font-bold text-lg leading-tight uppercase rounded hover:bg-blue-700 hover:bg-opacity-100 focus:outline-none focus:ring-0 animate__animated animate__tada"
@@ -62,8 +68,8 @@ const Home = () =>{
                 <div className="group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInLeft"
                     style={{boxShadow: "1px 1px 100px 1px rgba(0, 0, 0, 0.15)" , borderRadius: "50px 0px 0px 0px"}}>
                     <div className="items-center justify-center text-left px-6 py-6 sm:px-12 sm:py-10">
-                        <div className="text-xl font-bold uppercase mb-3 sm:mb-7 md:text-3xl text-blue-800">Girls in Code
-                        </div>
+                        <div className="text-xl font-bold uppercase mb-3 sm:mb-7 md:text-3xl text-blue-800"><p className="inline">Girls in Code</p>
+                        <ChartBarIcon className="h-6 w-6 text-blue-800 inline ml-28 md:ml-14" aria-hidden="true"/></div>
                         <div className="font-sans text-sm">A program initiated to close the gender gap in
                             technology by focusing on girls and women between 18 -24 years old from low income
                             families and refugees camps.</div>
@@ -74,7 +80,8 @@ const Home = () =>{
                 <div className="group aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-white xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInRight"
                     style={{boxShadow: "1px 1px 100px 1px rgba(0, 0, 0, 0.15)" , borderRadius: "0px 50px 0px 0px"}}>
                     <div className="items-center justify-center text-left px-6 py-6 sm:px-12 sm:py-10">
-                        <div className="text-xl font-bold uppercase mb-3 sm:mb-7 sm:text-3xl text-blue-800">aipe</div>
+                        <div className="text-xl font-bold uppercase mb-3 sm:mb-7 sm:text-3xl text-blue-800"><p className="inline">aipe</p>
+                        <ShieldCheckIcon className="h-6 w-6 text-blue-800 inline ml-52 md:ml-52" aria-hidden="true"/></div>
                         <div className="font-sans text-sm">All for inforamtion and programming
                             Educations a program designed to teach youths from low income family and refugee camps
                             aged between 8 to 16 years how to code.</div>
@@ -86,7 +93,8 @@ const Home = () =>{
                     style={{boxShadow: "1px 1px 100px 1px rgba(0, 0, 0, 0.15)" , borderRadius: "0px 0px 0px 50px"}}>
                     <div className="items-center justify-center text-left px-6 py-6 sm:px-12 sm:py-10">
                         
-                        <div className="text-xl font-bold uppercase mb-3 sm:text-3xl text-blue-800">Junior programMERS
+                        <div className="text-xl font-bold uppercase mb-3 sm:text-3xl text-blue-800"><p className="inline">Junior programMERS</p>
+                        <CodeBracketSquareIcon className="h-6 w-6 text-blue-800 inline ml-6 md:ml-10" aria-hidden="true"/>
                         </div>
                         <div className="font-sans text-sm">All for inforamtion and programming Educations a
                             program designed toteach youths from low income familyand refugee camps aged between 8
@@ -98,7 +106,8 @@ const Home = () =>{
                 <div className="group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInUp"
                     style={{boxShadow: "1px 1px 100px 1px rgba(0, 0, 0, 0.15)" , borderRadius: "0px 0px 50px 0px"}}>
                     <div className="items-center justify-center text-left px-6 py-6 sm:px-12 sm:py-10">
-                        <div className="text-xl font-bold uppercase mb-3 sm:mb-7 sm:text-3xl text-blue-800">scpiot</div>
+                        <div className="text-xl font-bold uppercase mb-3 sm:mb-7 sm:text-3xl text-blue-800"><p className="inline">scpiot</p>
+                        <Squares2X2Icon className="h-6 w-6 text-blue-800 inline ml-48 md:ml-40" aria-hidden="true"/></div>
                         <div className="font-sans text-sm">Sustainable Career in programming and IoT Program was
                             initiated in 2019 to equipe TVET and University graduates with ICT employable skills.</div>
                         <div className="font-sans text-sm font-medium mt-3 sm:mt-7 text-blue-800 underline sm:text-start text-end"><a href="">Find

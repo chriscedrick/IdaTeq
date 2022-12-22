@@ -17,7 +17,7 @@ const form = useRef();
           console.log(error.text);
       });
       toast.success('Sent Successfully!', {
-        position: toast.POSITION.BOTTOM_RIGHT
+        position: toast.POSITION.TOP_RIGHT
     });
   };
 

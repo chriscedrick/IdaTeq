@@ -12,6 +12,7 @@ import {
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import Idalogo from '../images/Idalogo1.jpg'
 
+
 const programs = [
   {
     name: 'Girls In Code',

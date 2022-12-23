@@ -19,7 +19,7 @@ const Home = () =>{
             style={{backgroundColor: "rgba(255, 255, 255, 0.45)"}}>
             <div className="flex justify-start items-center md:h-full ml-12 md:ml-44 md:mr-6">
                 <div className="text-end text-blue-800 px-6 md:px-12">
-                    <h1 className="text-base md:text-4xl font-bold md:mt-0 mt-8 mb-3 md:mb-6 ">Welcome to 
+                    <h1 className="text-lg md:text-4xl font-bold md:mt-0 mt-8 mb-3 md:mb-6 ">Welcome to 
                         <span className="block text-4xl md:text-7xl animate__animated animate__fadeIn">IDA TEQ</span>
                     </h1>
                     <h3 className="text-sm md:text-xl font-normal  mb-6 md:mb-8">We are a Burundian Social 

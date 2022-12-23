@@ -26,8 +26,8 @@ const form = useRef();
         <div className="md:bg-cover bg-contain" style={{ backgroundImage: `url(${contactback})`}}>
 
         <div className="px-2 md:px-20 py-10 lg:py-28">
-            <div className="block p-7 bg-white max-w-sm " style={{boxShadow: "0px 1px 100px 1px rgba(0, 0, 0, 0.1)" , borderRadius: "20px"}}>
-    
+            <div className="block p-7 bg-white max-w-sm" style={{boxShadow: "0px 1px 100px 1px rgba(0, 0, 0, 0.1)" , borderRadius: "20px"}}>
+
                 <form ref={form} onSubmit={sendEmail}>
                     <h1 className="text-2xl md:text-4xl text-center font-bold text-blue-800 mb-10 animate__animated animate__pulse">CONTACT US</h1>
                     <div className="form-group mb-6">

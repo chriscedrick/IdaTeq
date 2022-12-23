@@ -6,7 +6,6 @@ import {
     ChartBarIcon,
     ShieldCheckIcon,
     Squares2X2Icon,
-    XMarkIcon,
     CodeBracketSquareIcon,
   } from '@heroicons/react/24/outline'
 
@@ -14,20 +13,20 @@ const Home = () =>{
 
     return(
     <div>
-    <div className="relative overflow-hidden bg-no-repeat bg-cover"
-        style={{ backgroundPosition: "50%" , backgroundImage: `url(${home})` , height: "500px"}}>
+    <div className="relative overflow-hidden bg-no-repeat bg-cover h-[200px] md:h-[500px]"
+        style={{ backgroundPosition: "50%" , backgroundImage: `url(${home})` }}>
         <div className="absolute top-0 right-0 bottom-0 left-192 overflow-hidden bg-fixed rounded-bl-full"
             style={{backgroundColor: "rgba(255, 255, 255, 0.45)"}}>
-            <div className="flex justify-start items-center h-full ml-44 mr-6">
-                <div className="text-end text-blue-800 px-6 lg:px-12">
-                    <h1 className="text-xl md:text-4xl font-bold mt-0 mb-6 ">Welcome to 
-                        <span className="block text-7xl animate__animated animate__fadeIn">IDA TEQ</span>
+            <div className="flex justify-start items-center md:h-full ml-12 md:ml-44 md:mr-6">
+                <div className="text-end text-blue-800 px-6 md:px-12">
+                    <h1 className="text-base md:text-4xl font-bold md:mt-0 mt-2 mb-3 md:mb-6 ">Welcome to 
+                        <span className="block text-4xl md:text-7xl animate__animated animate__fadeIn">IDA TEQ</span>
                     </h1>
-                    <h3 className="text-base md:text-xl font-normal mb-8">We are a Burundian Social 
+                    <h3 className="text-sm md:text-xl md:font-normal  mb-6 md:mb-8">We are a Burundian Social 
                         <span className="block">Enterprise, Founded in 2022</span>
                     </h3>
                     <a href="/apply"><button type="button"
-                        className="inline-block px-3 py-2.5 bg-blue-800 text-white font-bold text-lg leading-tight uppercase rounded hover:bg-blue-700 hover:bg-opacity-100 focus:outline-none focus:ring-0 animate__animated animate__tada"
+                        className="inline-block px-2 py-1.5 md:px-3 md:py-2.5 bg-blue-800 text-white font-bold text-sm md:text-lg leading-tight uppercase rounded hover:bg-blue-700 hover:bg-opacity-100 focus:outline-none focus:ring-0 animate__animated animate__tada"
                         data-mdb-ripple="true" data-mdb-ripple-color="light" style={{borderRadius: "15px 0px"}}>
                         APPLY NOW
                     </button></a>
@@ -65,7 +64,7 @@ const Home = () =>{
                 girls from local low-income communities accessing anaffordable learning focusing on general computer
                 literacy, coding, data science and internet of thing.</p>
             <div className="grid grid-cols-1 gap-y-4 gap-x-4 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 xl:gap-x-5 lg:px-16">
-                <div className="group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInLeft"
+                <div className="group aspect-w-1 aspect-h-1 overflow-hidden bg-white w-full xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInLeft"
                     style={{boxShadow: "1px 1px 100px 1px rgba(0, 0, 0, 0.15)" , borderRadius: "50px 0px 0px 0px"}}>
                     <div className="items-center justify-center text-left px-6 py-6 sm:px-12 sm:py-10">
                         <div className="text-xl font-bold uppercase mb-3 sm:mb-7 md:text-3xl text-blue-800"><p className="inline">Girls in Code</p>

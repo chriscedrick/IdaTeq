@@ -9,15 +9,15 @@ const Girls = () => {
         <div className="md:bg-cover bg-contain" style={{backgroundImage: `url(${back})`}}>
 
         <div className="text-center lg:text-left">
-            <div className="container p-7 ">
-                <div className="grid grid-cols-1 gap-4 justify-center items-center lg:grid-cols-3 lg:px-40">
-                    <div className="mb-0 md:mb-0 text-end">
+            <div className="container p-5 md:p-7 ">
+                <div className="grid grid-cols-1 gap-1 md:gap-4 justify-center items-center lg:grid-cols-3 lg:px-40">
+                    <div className="mb-0 md:mb-0 text-start md:text-end">
                         <p className="font-bold uppercase text-xl lg:text-3xl text-blue-800">
                             GIRLS IN CODE PROGRAM
                         </p>
                     </div>
-                    <div className="mb-0 md:mb-0 lg:col-span-2 text-sm lg:text-xl text-start">
-                        <p className="lg:pr-28">
+                    <div className="mb-0 md:mb-0 lg:col-span-2 text-sm lg:text-xl text-end md:text-start">
+                        <p className="md:pr-28">
                             Girls In Code is a national non-profitworking to close the gender gap intechnology.
                         </p>
                     </div>
@@ -26,10 +26,13 @@ const Girls = () => {
         </div>
     
         <div className="text-center lg:text-left">
-            <div className="container p-7 ">
+            <div className="container p-5 md:p-7 ">
                 <div className="grid grid-cols-1 gap-4 justify-center items-center lg:grid-cols-2 lg:px-5">
+                <div className="mb-0 md:mb-0  text-small lg:text-base text-start lg:pl-40 lg:pb-20 items-center">
+                        <img src={home} className="object-cover h-52 w-52 lg:h-96 lg:w-96 rounded-full" alt=""/>
+                    </div>
                     <div className="mb-0 md:mb-0 text-start">
-                        <div className="text-xl font-bold uppercase mb-3 lg:text-3xl text-blue-800">PROGRAM PURPOSE</div>
+                        <div className="text-xl font-bold uppercase mb-1 md:mb-3 lg:text-3xl text-blue-800">PROGRAM PURPOSE</div>
                         <div className="font-sans text-sm lg:pr-20 lg:text-xl">Girls In Code is a national non-profit working to
                             close the gender
                             gap in technology. <br/>
@@ -37,11 +40,7 @@ const Girls = () => {
                             computer scientists, librarians, parents, college students or volunteers from any background or
                             ﬁeld.</div>
                     </div>
-                    <div className="mb-0 md:mb-0  text-small lg:text-base text-start lg:pl-40 lg:pb-20 items-center">
-    
-                        <img src={home} className="object-cover h-52 w-52 lg:h-96 lg:w-96 rounded-full" alt=""/>
-    
-                    </div>
+                    
                 </div>
             </div>
         </div>

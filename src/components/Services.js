@@ -38,18 +38,18 @@ const Services = () => {
     return(
     <div className="md:bg-cover bg-contain" style={{backgroundImage: `url(${homeback})`}}>
         <div className="text-center lg:text-left lg:py-10">
-            <div className="container p-7 ">
-                <div className="grid grid-cols-2 gap-4 justify-center items-center lg:grid-cols-3">
-                    <div className="mb-4 md:mb-0 lg:col-span-2 text-sm lg:text-4xl text-start">
+            <div className="container py-2 px-5 md:p-7 ">
+                <div className="grid grid-cols-1 gap-4 justify-center items-center lg:grid-cols-3">
+                    <div className="mb-0 md:mb-0 lg:col-span-2 text-sm lg:text-4xl text-center md:text-start">
                         <p className="lg:pl-20 sm:pl-10 text-blue-800">
                             The development team of IDA TEQ is Equipped with proper Human resources specializedin different
                             system development tasks.
                         </p>
                     </div>
-                    <div className="mb-4 lg:mb-0 text-center">
+                    <div className="mb-0 md:mb-0 text-center">
                         <button type="button"
                             className="inline-block px-2 md:px-3 py-1 md:py-2.5 bg-blue-800 text-white font-bold text-sm md:text-lg leading-tight uppercase rounded hover:bg-blue-700 hover:bg-opacity-100 focus:outline-none focus:ring-0 animate__animated animate__pulse animate__delay-1s"
-                            data-mdb-ripple="true" data-mdb-ripple-color="light" style={{borderRadius: "10px"}}>
+                            data-mdb-ripple="true" data-mdb-ripple-color="light" style={{borderRadius: "7px"}}>
                             HIRE US TODAY
                         </button>
                     </div>

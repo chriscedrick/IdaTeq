@@ -28,7 +28,7 @@ const Juniors = () => {
         <div className="text-center lg:text-left">
             <div className="container p-5 md:p-7 ">
                 <div className="grid grid-cols-1 gap-4 justify-center items-center lg:grid-cols-2 lg:px-5">
-                <div className="mb-0 md:mb-0  text-small lg:text-base text-start lg:pl-40 lg:pb-20 items-center">
+                <div className="mb-0 md:mb-0  text-small lg:text-base text-start md:pl-40 md:pb-20 items-center">
                         <img src={home} className="object-cover h-52 w-52 lg:h-96 lg:w-96 rounded-full" alt=""/>
                     </div>
                     <div className="mb-0 md:mb-0 text-start">
@@ -56,7 +56,7 @@ const Juniors = () => {
     
                             <img src={home} alt="" />
                             <div className="p-2 text-center">
-                                <h5 className="mb-2 text-xl font-bold tracking-tight text-white  ">Academic Trainings</h5>
+                                <h5 className="mb-2 text-lg font-bold tracking-tight text-white  ">Academic Trainings</h5>
     
                                 <p className="mb-3 font-normal text-gray-300 text-sm">
                                     We provide affordable IT services and
@@ -75,7 +75,7 @@ const Juniors = () => {
     
                             <img src={home} alt="" />
                             <div className="p-2 text-center">
-                                <h5 className="mb-2 text-xl font-bold tracking-tight text-white  ">Academic Trainings</h5>
+                                <h5 className="mb-2 text-lg font-bold tracking-tight text-white  ">Academic Trainings</h5>
     
                                 <p className="mb-3 font-normal text-gray-300 text-sm">
                                     We provide affordable IT services and
@@ -94,7 +94,7 @@ const Juniors = () => {
     
                             <img src={home} alt="" />
                             <div className="p-2 text-center">
-                                <h5 className="mb-2 text-xl font-bold tracking-tight text-white  ">Academic Trainings</h5>
+                                <h5 className="mb-2 text-lg font-bold tracking-tight text-white  ">Academic Trainings</h5>
     
                                 <p className="mb-3 font-normal text-gray-300 text-sm">
                                     We provide affordable IT services and
@@ -113,7 +113,7 @@ const Juniors = () => {
     
                             <img  src={home} alt="" />
                             <div className="p-2 text-center">
-                                <h5 className="mb-2 text-xl font-bold tracking-tight text-white  ">Academic Trainings</h5>
+                                <h5 className="mb-2 text-lg font-bold tracking-tight text-white  ">Academic Trainings</h5>
     
                                 <p className="mb-3 font-normal text-gray-300 text-sm">
                                     We provide affordable IT services and
@@ -132,7 +132,7 @@ const Juniors = () => {
     
                             <img  src={home} alt="" />
                             <div className="p-2 text-center">
-                                <h5 className="mb-2 text-xl font-bold tracking-tight text-white  ">Academic Trainings</h5>
+                                <h5 className="mb-2 text-lg font-bold tracking-tight text-white  ">Academic Trainings</h5>
     
                                 <p className="mb-3 font-normal text-gray-300 text-sm">
                                     We provide affordable IT services and
@@ -151,7 +151,7 @@ const Juniors = () => {
     
                             <img src={home} alt="" />
                             <div className="p-2 text-center">
-                                <h5 className="mb-2 text-xl font-bold tracking-tight text-white  ">Academic Trainings</h5>
+                                <h5 className="mb-2 text-lg font-bold tracking-tight text-white  ">Academic Trainings</h5>
     
                                 <p className="mb-3 font-normal text-gray-300 text-sm">
                                     We provide affordable IT services and

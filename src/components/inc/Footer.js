@@ -8,14 +8,14 @@ const Footer = () => {
     <div className="bg-blue-800 text-center lg:text-left">
     <div className="container p-2 text-gray-800">
         <div className="grid lg:grid-cols-3 gap-4">
-            <div className="mb-4 md:mb-0">
-                <div className="flex justify-center mb-4 mt-5">
+            <div className="mb-0 md:mb-0">
+                <div className="flex justify-center md:mb-4 md:mt-5">
                     <img src={Idalogo} className="block w-60 " alt="..."/>
                 </div>
             </div>
 
-            <div className="mb-4 md:mb-0">
-                <div className="flex justify-center mb-4 mt-14">
+            <div className="mb-0 md:mb-0">
+                <div className="flex justify-center md:mb-4 md:mt-14">
                     <Link to="#!" className="mr-9 text-white">
                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
                             className="svg-inline--fa fa-facebook-f w-3.5" role="img" xmlns="http://www.w3.org/2000/svg"
@@ -73,8 +73,8 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="mb-4 md:mb-0">
-                <div className="justify-center mb-4 mt-7 text-white text-center">
+            <div className="mb-0 md:mb-0">
+                <div className="justify-center md:mb-4 md:mt-7 text-white text-center">
                     <p className="mb-2 flex items-center justify-center  ">
                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="envelope"
                             className="svg-inline--fa fa-envelope w-5" role="img" xmlns="http://www.w3.org/2000/svg"

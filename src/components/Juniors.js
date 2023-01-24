@@ -51,7 +51,7 @@ const Juniors = () => {
     
                     <div
                         className="grid grid-cols-1 gap-y-2  gap-x-2 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 xl:gap-y-5 xl:gap-x-5 lg:px-5">
-                        <div
+                        <div data-aos="zoom-in-down"
                             className=" group aspect-w-1 aspect-h-1 w-full overflow-hidden  xl:aspect-w-7 xl:aspect-h-8 bg-blue-800 border border-gray-200 rounded-lg shadow-md ">
     
                             <img src={home} alt="" />
@@ -70,7 +70,7 @@ const Juniors = () => {
                             </div>
                         </div>
     
-                        <div
+                        <div data-aos="zoom-in-down"
                             className=" group aspect-w-1 aspect-h-1 w-full overflow-hidden  xl:aspect-w-7 xl:aspect-h-8 bg-blue-800 border border-gray-200 rounded-lg shadow-md ">
     
                             <img src={home} alt="" />
@@ -89,7 +89,7 @@ const Juniors = () => {
                             </div>
                         </div>
     
-                        <div
+                        <div data-aos="zoom-in-down"
                             className=" group aspect-w-1 aspect-h-1 w-full overflow-hidden  xl:aspect-w-7 xl:aspect-h-8 bg-blue-800 border border-gray-200 rounded-lg shadow-md ">
     
                             <img src={home} alt="" />
@@ -108,7 +108,7 @@ const Juniors = () => {
                             </div>
                         </div>
     
-                        <div
+                        <div data-aos="zoom-in-up"
                             className=" group aspect-w-1 aspect-h-1 w-full overflow-hidden  xl:aspect-w-7 xl:aspect-h-8 bg-blue-800 border border-gray-200 rounded-lg shadow-md ">
     
                             <img  src={home} alt="" />
@@ -127,7 +127,7 @@ const Juniors = () => {
                             </div>
                         </div>
     
-                        <div
+                        <div data-aos="zoom-in-up"
                             className=" group aspect-w-1 aspect-h-1 w-full overflow-hidden  xl:aspect-w-7 xl:aspect-h-8 bg-blue-800 border border-gray-200 rounded-lg shadow-md ">
     
                             <img  src={home} alt="" />
@@ -146,7 +146,7 @@ const Juniors = () => {
                             </div>
                         </div>
     
-                        <div
+                        <div data-aos="zoom-in-up"
                             className=" group aspect-w-1 aspect-h-1 w-full overflow-hidden  xl:aspect-w-7 xl:aspect-h-8 bg-blue-800 border border-gray-200 rounded-lg shadow-md ">
     
                             <img src={home} alt="" />
@@ -177,7 +177,7 @@ const Juniors = () => {
                                 className="grid grid-cols-1 gap-y-2  gap-x-2 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 xl:gap-y-5 xl:gap-x-5 lg:px-5">
     
     
-                                <div
+                                <div data-aos="flip-up"
                                     className="group aspect-w-1 aspect-h-1 w-full overflow-visible  xl:aspect-w-7 xl:aspect-h-8 block  p-4 rounded-lg shadow-lg bg-white m-0 md:m-4">
                                     <div className="md:flex md:flex-row">
                                         <div
@@ -197,7 +197,7 @@ const Juniors = () => {
                                     </div>
                                 </div>
     
-                                <div
+                                <div data-aos="flip-up"
                                     className="group aspect-w-1 aspect-h-1 w-full  xl:aspect-w-7 xl:aspect-h-8 block  p-4 rounded-lg shadow-lg bg-white m-0 md:m-4">
                                     <div className="md:flex md:flex-row">
                                         <div

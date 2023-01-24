@@ -11,25 +11,25 @@ const services = [
         icon: EyeIcon,
         name: 'SYSTEM ANALYSIS & DESIGN',
         description: 'System analyses and design team combines both functional and technical analysts. we beleive to develop a proper system of which functional analysis is equally important as technical analysis. Our system analysis and design team specializes in software',
-        class:"group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInLeft"
+        class:"group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8 "
     },
     {
         icon: CircleStackIcon,
         name: 'DATABASE MANAGEMENT',
         description: 'We have database expertise ranging from ISAM or flat database systems like Microsoft Access,MySQL , postgress , visual FoxPro to robust commercial database engines like Oracle,Mongo DB and Microsoft SQL. For web database connectivity and cross-platform data management we also have specialized experience and expertise in SQL and No SQL database',
-        class:"group aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-white xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInRight"
+        class:"group aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-white xl:aspect-w-7 xl:aspect-h-8"
     },
     {
         icon: CodeBracketSquareIcon,
         name: 'PROGRAMMING',
         description: 'System analyses and design team combines both functional and technical analysts. we beleive to develop a proper system of which functional analysis is equally important as technical analysis. Our system analysis and design team specializes in software',
-        class:"group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInUp"
+        class:"group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8"
     },
     {
         icon: CodeBracketSquareIcon,
         name: 'PROGRAMMING',
         description: 'System analyses and design team combines both functional and technical analysts. we beleive to develop a proper system of which functional analysis is equally important as technical analysis. Our system analysis and design team specializes in software',
-        class:"group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8 animate__animated animate__backInUp"
+        class:"group aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-white w-full xl:aspect-w-7 xl:aspect-h-8"
     },
   ]
 
@@ -47,8 +47,8 @@ const Services = () => {
                         </p>
                     </div>
                     <div className="mb-0 md:mb-0 text-center">
-                        <button type="button"
-                            className="inline-block px-2 md:px-3 py-1 md:py-2.5 bg-blue-800 text-white font-bold text-sm md:text-lg leading-tight uppercase rounded hover:bg-blue-700 hover:bg-opacity-100 focus:outline-none focus:ring-0 animate__animated animate__pulse animate__delay-1s"
+                        <button data-aos="flip-up" type="button"
+                            className="inline-block px-2 md:px-3 py-1 md:py-2.5 bg-blue-800 text-white font-bold text-sm md:text-lg leading-tight uppercase rounded hover:bg-blue-700 hover:bg-opacity-100 focus:outline-none focus:ring-0"
                             data-mdb-ripple="true" data-mdb-ripple-color="light" style={{borderRadius: "7px"}}>
                             HIRE US TODAY
                         </button>
@@ -61,7 +61,7 @@ const Services = () => {
             <div className="mx-auto max-w-2xl py-2 px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-20 ">
                 <div className="grid grid-cols-1 gap-y-4  gap-x-4 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 xl:gap-y-10 xl:gap-x-10 lg:px-10">
                    {services.map((service) => (
-                     <div className={service.class}
+                     <div data-aos="zoom-in-down" className={service.class}
                         style={{boxShadow: "1px 1px 100px 1px rgba(0, 0, 0, 0.15)", borderRadius: "15px"}}>
                         <div className="items-center justify-center text-center px-6 py-6 lg:px-12 lg:py-10 ">
                         <service.icon className="h-6 w-6 flex-shrink-0 text-blue-800" aria-hidden="true" />
